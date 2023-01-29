@@ -8,6 +8,7 @@ int index = 0;
 
 while (index < n)
 {
-    if (array[index] == find)
+    if(array[index] == find)
+    Console.WriteLine("index = " + index);
     index++; // index=index+1
 }
