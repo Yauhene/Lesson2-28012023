@@ -26,7 +26,7 @@ int IndexOf(int[] collection, int find)
 {
     int count = collection.Length;
     int index = 0;
-    int position = 0;
+    int position = -1; // значение -1 укажет на случай, когда поиск был безуспешным
 
     while (index < count)
     {
