@@ -1,10 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Заполнение массива случайными числами
 
 void FillArray(int[] collection)
 {
-    int Length = collection.Lenght;
+    int length = collection.Length;
     int index = 0;
-    while (index < lenght)
+    while (index < length)
     {
         collection[index] = new Random().Next(1, 10);
         index++;
